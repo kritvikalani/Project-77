@@ -188,7 +188,8 @@ export default class SignupLoginScreen extends React.Component {
               </TouchableOpacity>
               <TouchableOpacity style = {styles.button} 
               onPress = {()=>{
-                  this.userSignUp(this.state.emailId, this.state.password)
+                  //this.userSignUp(this.state.emailId, this.state.password)
+                  this.setState({isVisible: true})
               }}>
                   <Text style = {styles.buttonText}> SIGN UP </Text>
               </TouchableOpacity>
